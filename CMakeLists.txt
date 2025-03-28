@@ -32,17 +32,12 @@ target_compile_options(SeasideModular PRIVATE
     -fdata-sections
     -ffunction-sections
     -fno-exceptions
-    -fno-threadsafe-statics
-    -fno-use-cxa-atexit
     $<$<CXX_COMPILER_ID:GNU>:-fvisibility=hidden>
-    $<$<CXX_COMPILER_ID:GNU>:-fvisibility-inlines-hidden>
 )
 
 # Linker options
 target_link_options(SeasideModular PRIVATE
     -Wl,--gc-sections
-    -static-libgcc
-    -static-libstdc++
 )
 
 # Source files
