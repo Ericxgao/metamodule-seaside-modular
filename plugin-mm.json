@@ -1,7 +1,32 @@
 {
-    "MetaModulePluginMaintainer": "Eric Gao",
-    "MetaModulePluginMaintainerEmail": "",
-    "MetaModulePluginMaintainerUrl": "",
-    "MetaModuleDescription": "",
-    "MetaModuleIncludedModules": []
+    "MetaModulePluginMaintainer": "oksami",
+    "MetaModulePluginMaintainerEmail": "itsoksami@gmail.com",
+    "MetaModulePluginMaintainerUrl": "https://github.com/Ericxgao/metamodule-seaside-modular",
+    "MetaModuleDescription": "Seaside Modular ported for MetaModule",
+    "MetaModuleIncludedModules": [
+        {
+            "slug": "Proteus",
+            "name": "Proteus"
+        },
+        {
+            "slug": "Jawari",
+            "name": "Jawari"
+        },
+        {
+            "slug": "ProteusX",
+            "name": "ProteusX"
+        },
+        {
+            "slug": "Tala",
+            "name": "Tala"
+        },
+        {
+            "slug": "Raga",
+            "name": "Raga"
+        },
+        {
+            "slug": "Blank_20HP",
+            "name": "Blank_20HP"
+        }
+    ]
 }
